@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.bannerImg{
+    height: 350px;
+    object-fit: cover;
+}
+
+.logo{
+    font-family: "Black Han Sans", sans-serif;
+}
+
+@media all and (min-width: 992px){
+    .bannerImg{
+        height: 450px;
+        object-position: 50% 40%;
+    }
+}
